@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="technical.css">
+
+    </head>
+    <body>
+        <div class="main-body">
+            <nav id="navbar">
+                <header>Documentation Menu</header>
+                <a href="#Intro" class="nav-link">
+                    What is C++</a>
+                <a href="#Object" class="nav-link">
+                    Object and Classes</a>
+                <a href="#Inheritance" class="nav-link">
+                    Inheritance</a>
+                <a href="#Polymorphism" class="nav-link">
+                    Polymorphism</a>
+                <a href="#Abstraction" class="nav-link">
+                     Abstraction</a>
+                <a href="#Encapsulation" class="nav-link">
+                     Encapsulation</a>  
+
+            </nav>
+            <main id="main-doc">
+                <section class="main-section" id="Intro">
+                    <header>
+                        What is C++?
+                    </header>
+                    <p>
+                        C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.[14] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[14] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes).[15]
+
+C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20).[16] The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization.[17] Since 2012, C++ has been on a three-year release schedule[18] with C++23 as the next plan is standard
+                    </p>
+                    <p>
+                        he "Hello World" programis the first step towards learning any programmming language and also one of the simplest programs you will learn. All you have to do is display the message "Hello World"on the screen.
+                        <br><br>Let us now look at the program :<br>
+                    </p>
+                    <code>
+                        #include<iostream>
+                            <br>
+                            using namespace std;
+                            <br>
+                            int main()
+                            <br>
+                            {
+                                <br>
+                                cout<<"Hello World";
+                                <br> 
+                                return 0;
+                                <br>
+                            }
+                    </code>
+                    <br>
+                    <p>
+                        C++ is an object Oriented Programming Language.
+                        <br> The main pillarsof Object Oriented Programming are:
+                    </p>
+                    <ul>
+                        <li>Objects and Classes</li>
+                        <li>Inheritaance</li>
+                        <li>Polymorphism</li>
+                        <li>Abstraction</li>
+                        <li>Encapsulation</li>
+                    </ul>
+                </section>
+                <section class="main-section" id="Object">
+                    <header>
+                        Objects and Classes
+                    </header>
+                    <p>
+                        The main purpose of C++ programming is to add object orientation to the C programming language and classes are the central feature of C++ that supports object-oriented programming and are often called user-defined types.
+
+A class is used to specify the form of an object and it combines data representation and methods for manipulating that data into one neat package. The data and functions within a class are called members of the class.
+
+
+                    </p>
+                    <p><b>Object :</b> 
+                        A class provides the blueprints for objects, so basically an object is created from a class. We declare objects of a class with exactly the same sort of declaration that we declare variables of basic types. Following statements declare two objects of class.
+                        <br>
+                        <b>Class :</b>When you define a class, you define a blueprint for a data type. This doesn't actually define any data, but it does define what the class name means, that is, what an object of the class will consist of and what operations can be performed on such an object.
+
+                        A class definition starts with the keyword class followed by the class name; and the class body, enclosed by a pair of curly braces. A class definition must be followed either by a semicolon or a list of declarations
+                    </p>
+                </section>
+                <section class="main-section" id="Inheritance">
+                    <header>
+                        Inheritance
+                    </header>
+                    <p>
+                        One of the most important concepts in object-oriented programming is that of inheritance. Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application. This also provides an opportunity to reuse the code functionality and fast implementation time.
+
+When creating a class, instead of writing completely new data members and member functions, the programmer can designate that the new class should inherit the members of an existing class. This existing class is called the base class, and the new class is referred to as the derived class.
+
+The idea of inheritance implements the is a relationship. For example, mammal IS-A animal, dog IS-A mammal hence dog IS-A animal as well and so on.
+                    </p>
+                    <p>
+                        <b>Mode of Inheritance :</b><br><br>
+                        <b>Public Mode :</b> If we derive a sub class from a public baseclass. Then the public number of the base class will become public in the derived class and protected members of the base class will become protected in derived class.
+                        <br><br>
+                        <b>Protected Mode :</b> If we derive a sub class from a protected base class.Then both public member and protected member of the base class will become protected in derived class.
+                        <br><br>
+                        <b>Private Mode :</b> If we derive a sub class from a private base class.Then both public  member base class will become private in derived class.
+                        <br><br>
+                        <b>Types of Inheritance in C++ :</b>
+                        <br><br><br>
+                        <b>Single Inheritance :</b> In single inheritance, a class is allowed to inherit from only one class. i.e. one sub class is inherited by one base class only.
+                        <br><br>
+                        <b>Multiple Inheritance :</b> Multiple Inheritance is a feature of c++ where a class can inherit from more than one classes.i.e. one sub class is inherited from more than one base classes.
+                        <br><br>
+                        <b>Multilevel Inheritance :</b> In this type of inheritance, a derived class is created from another derived class.
+                        <br><br>
+                        <b>Hierarchical Inheritance :</b> In this type of inheritance , a derived class is  created from another derived class.
+                        <br><br>
+                        <b>Hybrid (Virtual) Inheritance :</b> Hybrid inheritance is implemented by combining than one type of inheritance.
+                    </p>
+                </section>
+                <section class="main-section" id="Polymorphism">
+                    <header>
+                        Polymorphism
+                    </header>
+                    <p>
+                        Polymorphism is one of the most important concepts of Object-Oriented Programming (OOPs). For a language considered to be an OOP language, it must support polymorphism. You can describe the word polymorphism as an object having many forms. Polymorphism is the notion that can hold up the ability of an object of a class to show different responses. In other words, you can say that polymorphism is the ability of an object to be represented in over one form.
+
+To understand polymorphism, you can consider a real-life example. You can relate it to the relationship of a person with different people. A man can be a father to someone, a husband, a boss, an employee, a son, a brother, or can have many other relationships with various people. Here, this man represents the object, and his relationships display the ability of this object to be represented in many forms with totally different characteristics.
+               <br>
+               <b>In C++ polymorphism is mainly divided into two types :</b>
+               <br> 1. compile time Polymorphism <br>
+               2. Runtime Polymorphism 
+                    </p>
+                    <p>Compile time polymorphism : This type of polymorphism is achieved by function overloading or operatoe overloading.<br> Runtime polymorphism : This type of polymorphism is achieved by function Overloading.
+                    </p>
+                </section>
+                <section class="main-section" id="Abstraction">
+                    <header>
+                        Abstraction
+                    </header>
+                    <p>
+                        Data abstraction is one of the most essential and important feature of object oriented programming in C++. Abstraction means displaying only essential information and hiding the details.
+
+Data Abstraction is a programming technique that depends on the seperation of the interface and implementation details of the program.
+
+For Example:- when you send an email to someone you just click send and you get the success message, what actually happens when you click send, how data is transmitted over network to the recipient is hidden from you (because it is irrelevant to you).
+                    </p>
+<br><br>
+<p>
+  <b>Data Abstraction can be achieved in two ways:</b><br>
+
+ 1.Abstraction using classes : We can implement Abstraction in C++ using classes. Class helps us to group data members and member functions using available access specifiers. A Class can decide which data member will be visible to outside world and which is not.
+ <br><br>
+ 2.Abstraction in header files : An another type of abstraction is header file.
+For example:- pow() function available is used to calculate the power of a number without actually knowing which algorithm function uses to calculate the power. Thus, we can say that header files hides all the implementation details from the user.
+<br><br>
+                    </p>
+                </section>
+                <section class="main-section" id="Encapsulation">
+                    <header>
+                        Encapsulation
+                    </header>
+                    <p>
+                        Encapsulation is an Object Oriented Programming concept that binds together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse. Data encapsulation led to the important OOP concept of data hiding.
+                        Data encapsulation is a mechanism of bundling the data, and the functions that use them and data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
+                        The variables length, breadth, and height are private. This means that they can be accessed only by other members of the Box class, and not by any other part of your program. This is one way encapsulation is achieved.
+                        To make parts of a class public (i.e., accessible to other parts of your program), you must declare them after the public keyword. All variables or functions defined after the public specifier are accessible by all other functions in your program.
+                        Making one class a friend of another exposes the implementation details and reduces encapsulation. The ideal is to keep as many of the details of each class hidden from all other classes as possible.
+                    </p>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
