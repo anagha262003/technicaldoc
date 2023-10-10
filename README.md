@@ -1,1 +1,1 @@
-# technicaldoc
+Technical documention of c language
